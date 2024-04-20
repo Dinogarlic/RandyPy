@@ -5,14 +5,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="randypy",
-    version="0.1.0",
+    version="0.1.2",
     author="dinogarlic",
     author_email="xldpsl1003@gmail.com",
     description="A Python library for generating random data",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Dinogarlic/RandyPy",
-    packages=setuptools.find_packages(),
+    packages=['randypy'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
